@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.square {
+    margin: 1px;
+    aspect-ratio: 1 / 1;
+    color: grey;
+    border: solid;
+    box-sizing: border-box;
+}
+
+#restart-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: pink;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', sans-serif;
+    font-size: 20px;
+}
