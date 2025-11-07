@@ -31,9 +31,9 @@ function createGrid(gridWidth) {
             let square = document.createElement("div");
             square.className = "square";
             // square.style.opacity = 0.1;
-            let color = getRandomColor();
+            // let color = getRandomColor();
             square.addEventListener("mouseenter", (event) => {
-                square.style.backgroundColor = color;
+                square.style.backgroundColor = getRandomColor();
                 // square.style.opacity = square.style.opacity + 0.1;
                 // console.log(square.style.opacity);
                 /* disappearing effect - color disappears after short delay
